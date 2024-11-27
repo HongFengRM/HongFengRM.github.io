@@ -39,7 +39,12 @@ jobs:
         run: pnpm install
 
       - name: 构建文档
-        run: pnpm build
+        shell: pwsh
+        run: |-
+          pnpm build
+          if ($null -ne (git status -s)) {
+            throw '在构建文档后存在未提交的文件，这通常是因为没有提前生成 FrontMatter 导致的。在推送前请确保执行 pnpm dev 或 pnpm build'
+          }
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
