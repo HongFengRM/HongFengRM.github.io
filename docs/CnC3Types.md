@@ -1,3 +1,9 @@
+---
+title: CnC3Types
+createTime: 2024/11/27 15:08:51
+permalink: /article/n6adtf5n/
+---
+
 # CnC3Types 资产声明
 
 本文件inlude了大量的其他xsd文件，并定义了重要的*AssetDeclaration*元素。
