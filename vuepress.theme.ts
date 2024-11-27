@@ -53,7 +53,7 @@ export default plumeTheme({
   plugins: {
     comment: {
       provider: 'Giscus',
-      comment: false,
+      comment: true,
       repo: 'HongFengRM/HongFengRM.github.io',
       repoId: 'R_kgDONU6osg',
       category: 'Comments',
