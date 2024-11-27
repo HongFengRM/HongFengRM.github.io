@@ -52,7 +52,6 @@ export default plumeTheme({
   copyright: {
     license: 'CC-BY-NC-SA-4.0',
   },
-  autoFrontmatter: false, // 在 GitHub Actions 中构建，此设置毫无意义
   docsBranch: 'master',
   docsDir: 'docs',
   docsRepo: 'HongFengRM/HongFengRM.github.io',
