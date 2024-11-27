@@ -27,6 +27,9 @@ export default plumeTheme({
       link: '596891218',
     },
   ],
+  footer: {
+    copyright: 'Copyright © 2024-present HongFengRM',
+  },
   blog: {
     postList: false,
     link: '/',
@@ -49,9 +52,7 @@ export default plumeTheme({
       },
     ],
   },
-  copyright: {
-    license: 'CC-BY-NC-SA-4.0',
-  },
+  copyright: 'CC-BY-NC-SA-4.0',
   docsBranch: 'master',
   docsDir: 'docs',
   docsRepo: 'HongFengRM/HongFengRM.github.io',
