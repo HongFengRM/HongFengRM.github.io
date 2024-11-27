@@ -35,8 +35,19 @@ export default plumeTheme({
     archivesLink: '/archives/',
   },
   contributors: {
-    avatar: false,
-    mode: 'block',
+    avatar: true,
+    mode: 'inline',
+    info: [
+      {
+        username: 'frg2089',
+        alias: ['舰队的偶像-岛风酱!', '舰队的偶像-岛风酱！'],
+        name: '舰队的偶像-岛风酱!',
+      },
+      {
+        username: 'HongFengRM',
+        name: '红枫',
+      },
+    ],
   },
   copyright: {
     license: 'CC-BY-NC-SA-4.0',
