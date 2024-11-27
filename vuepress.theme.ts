@@ -35,7 +35,7 @@ export default plumeTheme({
     archivesLink: '/archives/',
   },
   contributors: {
-    avatar: true,
+    avatar: false,
     mode: 'block',
   },
   copyright: {
