@@ -5,6 +5,7 @@ export default defineNavbarConfig([
     text: '首页',
     link: '/',
   },
+  '/friends/',
   '/tags/',
   '/categories/',
   '/archives/',
