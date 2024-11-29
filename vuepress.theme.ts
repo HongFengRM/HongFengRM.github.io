@@ -1,5 +1,4 @@
 import { plumeTheme } from 'vuepress-theme-plume'
-import navbar from './vuepress.navbar'
 import notes from './vuepress.notes'
 import sidebar from './vuepress.sidebar'
 
@@ -8,7 +7,8 @@ export default plumeTheme({
     name: '红枫',
     description: '红枫de~su!',
     avatar: '/MapleLeaf.webp',
-    location: 'China',
+    // 这里自动引用了gayhub的头像
+    location: 'Somewhere on the internet',
     organization: 'Shimakaze.Org',
     circle: true,
     layout: 'right',
@@ -28,7 +28,7 @@ export default plumeTheme({
     },
   ],
   footer: {
-    copyright: 'Copyright © 2024-present HongFengRM',
+    copyright: 'Copyright © 2024-present HongFengRM 保留一切权利',
   },
   blog: {
     postList: false,
@@ -58,8 +58,15 @@ export default plumeTheme({
   docsRepo: 'HongFengRM/HongFengRM.github.io',
   home: '/',
   hostname: 'HongFengRM.github.io',
-  logo: '/MapleLeaf.webp',
-  navbar,
+  logo: '/favicon.ico',
+  navbar: [
+    { text: '首页', link: '/' },
+    { text: '友情链接', link: '/friends/' },
+    { text: '博客', link: '/blog/' },
+    { text: '标签', link: '/blog/tags/' },
+    { text: '分类', link: '/blog/categories/' },
+    { text: '归档', link: '/blog/archives/' },
+  ],
   notes,
   plugins: {
     comment: {
