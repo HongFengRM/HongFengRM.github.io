@@ -9,4 +9,8 @@ export default defineNavbarConfig([
   '/tags/',
   '/categories/',
   '/archives/',
+  {
+    text: '红枫的MOD',
+    link: '/https://www.moddb.com/mods/imperial-instinct',
+  },
 ])
