@@ -6,7 +6,8 @@ import sidebar from './vuepress.sidebar'
 export default plumeTheme({
   profile: {
     name: '红枫',
-    description: '红枫de~su!',
+    description:
+      'RA3 mod开发者，前RA2 mod开发者，业余建模爱好者，博客拥有者（确信）',
     avatar: '/MapleLeaf.webp',
     location: 'Somewhere on the internet',
     organization: 'Shimakaze.Org',
@@ -21,10 +22,6 @@ export default plumeTheme({
     {
       icon: 'github',
       link: 'https://github.com/HongFengRM',
-    },
-    {
-      icon: 'qq',
-      link: '596891218',
     },
   ],
   footer: {
