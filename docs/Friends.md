@@ -10,7 +10,6 @@ list:
     desc: 没有他就没有本站，除了他我们谁都不认！
   - name: 九千天华
     link: http://20400prosperous.ysepan.com/
-
     avatar: /FishHead.avif
     desc: TS引擎修改爱好者
 ---
