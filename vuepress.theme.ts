@@ -3,7 +3,6 @@ import navbar from './vuepress.navbar'
 import notes from './vuepress.notes'
 import sidebar from './vuepress.sidebar'
 
-
 export default plumeTheme({
   profile: {
     name: '红枫',

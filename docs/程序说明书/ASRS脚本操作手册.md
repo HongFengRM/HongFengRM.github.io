@@ -2,6 +2,10 @@
 title: ASRS脚本操作手册 V1.5
 createTime: 2024/12/10 16:58:33
 permalink: /article/71cwgdyj/
+tags:
+  - RA2
+  - Maxscript
+  - 渲染
 ---
 
 ## 简介
