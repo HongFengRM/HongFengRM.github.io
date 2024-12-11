@@ -3,6 +3,7 @@ import navbar from './vuepress.navbar'
 import notes from './vuepress.notes'
 import sidebar from './vuepress.sidebar'
 
+
 export default plumeTheme({
   profile: {
     name: '红枫',
@@ -102,6 +103,9 @@ export default plumeTheme({
       lineNumbers: true,
       collapsedLines: true,
       whitespace: true,
+    },
+    readingTime: {
+      wordPerMinute: 300,
     },
   },
   sidebar,

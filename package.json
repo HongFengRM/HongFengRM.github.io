@@ -14,6 +14,7 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.18",
+    "@vuepress/plugin-reading-time": "2.0.0-rc.65",
     "@vueuse/integrations": "^12.0.0",
     "husky": "^9.1.7",
     "mark.js": "^8.11.1",
