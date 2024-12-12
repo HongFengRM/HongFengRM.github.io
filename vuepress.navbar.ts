@@ -24,14 +24,14 @@ export default defineNavbarConfig([
       },
       {
         text: '归档',
-        link: '/categories/',
+        link: '/archives/',
         icon: 'material-symbols:lists',
       },
     ],
   },
 
   {
-    text: '文档',
+    text: '杂谈',
     link: '/MISC/intro/',
     icon: 'material-symbols:lab-profile-outline-rounded',
   },
@@ -53,6 +53,11 @@ export default defineNavbarConfig([
         text: '红枫的B站',
         link: 'https://space.bilibili.com/172514568',
         icon: 'simple-icons:bilibili',
+      },
+      {
+        text: '红枫的D站',
+        link: 'https://www.deviantart.com/hongfengrm',
+        icon: 'simple-icons:deviantart',
       },
     ],
   },
