@@ -87,7 +87,7 @@ export default plumeTheme({
       echarts: false,
       mermaid: true,
       spoiler: true,
-      markmap:true,
+      markmap: true,
     },
     markdownImage: {
       figure: true,
@@ -107,7 +107,6 @@ export default plumeTheme({
     readingTime: {
       wordPerMinute: 300,
     },
-   
   },
   sidebar,
 })
