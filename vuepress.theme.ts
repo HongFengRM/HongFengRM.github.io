@@ -54,7 +54,7 @@ export default plumeTheme({
   docsDir: 'docs',
   docsRepo: 'HongFengRM/HongFengRM.github.io',
   home: '/',
-  hostname: 'HongFengRM.github.io',
+  hostname: 'rm.shimakaze.org',
   logo: '/favicon.ico',
   navbar,
   notes,
