@@ -6,14 +6,19 @@ permalink: /MISC/3opyogrl/
 
 类似于个人学习笔记
 
+## 术语翻译表
+
+Nuggets - 块
+
 RA3的xml文件总体来说呈现出非常清晰的树状结构。
 
 下图展现了一个简单的XML文件树状结构。
 
 ```markmap
 - 零级元素 AssetDeclaration
+    - Include
     - GameObject
-        - Include
+
         - Draw
         - Behavior
         - 其他二级元素

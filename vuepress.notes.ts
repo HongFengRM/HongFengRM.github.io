@@ -9,5 +9,10 @@ export default defineNotesConfig({
       link: '/MISC/',
       sidebar: 'auto',
     },
+    {
+      dir: 'MOD',
+      link: '/MOD/',
+      sidebar: 'auto',
+    },
   ],
 })

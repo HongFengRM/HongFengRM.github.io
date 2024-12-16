@@ -36,6 +36,11 @@ export default defineNavbarConfig([
     icon: 'material-symbols:lab-profile-outline-rounded',
   },
   {
+    text: 'MOD文档',
+    link: '/MOD/intro/',
+    icon: 'material-symbols:gamepad-outline-rounded',
+  },
+  {
     text: '外链',
     icon: 'material-symbols:linked-services-outline',
     items: [
