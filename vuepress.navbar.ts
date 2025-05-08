@@ -41,6 +41,11 @@ export default defineNavbarConfig([
     icon: 'material-symbols:gamepad-outline-rounded',
   },
   {
+    text: '生活',
+    link: '/Life/intro/',
+    icon: 'material-symbols:fastfood-rounded',
+  },
+  {
     text: '外链',
     icon: 'material-symbols:linked-services-outline',
     items: [
